@@ -103,8 +103,8 @@ const multipage = (props) => {
                         window.keplr.experimentalSuggestChain({
                           chainId: "dig-1",
                           chainName: "DIG",
-                          rpc: "http://65.21.202.37:8001",
-                          rest: "http://65.21.202.37:8003",
+                          rpc: "https://rpc-1-dig.notional.ventures",
+                          rest: "https://api-1-dig.notional.ventures",
                           bip44: {
                               coinType: 118,
                           },
